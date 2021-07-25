@@ -5,10 +5,10 @@ import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="outer-container">
       <Header />
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+      <main className="main-container">
         <h1 className="text-6xl font-bold">
           Welcome to{" "}
           <Link href="https://nextjs.org">

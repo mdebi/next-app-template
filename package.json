@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev:tailwind": "tailwindcss build -i styles/tailwind.css -o styles/tailwind-styles.css --watch &",
     "build:tailwind": "tailwindcss build -i styles/tailwind.css -o styles/tailwind-styles.css",
     "predev": "npm run build:tailwind",
     "prestart": "npm run build:tailwind",
